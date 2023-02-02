@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 // import data
 import { interviewData } from '../data';
 // import modal video
-import ModalVideo from 'react-modal-video';
 import '../modalVideo.scss';
 // import motion
 import { motion } from 'framer-motion';
@@ -49,14 +48,6 @@ const Interview = () => {
                 </div>
               </div>
             </motion.div>
-            {/* modal video */}
-            <ModalVideo
-              channel='youtube'
-              autoplay
-              isOpen={isOpen}
-              videoId='_l1mqYQuNf8'
-              onClose={() => setOpen(false)}
-            />
           </div>
         </div>
       </div>
