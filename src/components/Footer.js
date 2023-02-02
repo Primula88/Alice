@@ -18,7 +18,7 @@ const staggerContainer = {
 
 const Footer = () => {
   // destructure footer data
-  const { about, links, program, newsletter } = footerData;
+  const { about, program } = footerData;
   return (
     <footer className='bg-dark section'>
       <div className='container mx-auto'>
