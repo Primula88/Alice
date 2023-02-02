@@ -8,7 +8,7 @@ import { fadeIn } from '../variants';
 
 const Contact = () => {
   // destructure contact data
-  const { title, info, form } = contactData;
+  const { title, info } = contactData;
   return (
     <section className='section' id='Contact'>
       <div className='container mx-auto'>
@@ -57,13 +57,6 @@ const Contact = () => {
                         <div className='font-medium'>{email.address}</div>
                       </div>
                     </div>
-                    {/* link */}
-                    <a
-                      className='font-medium border-b border-dark pb-[5px]'
-                      href='#'
-                    >
-                      {link}
-                    </a>
                   </div>
                 );
               })}
