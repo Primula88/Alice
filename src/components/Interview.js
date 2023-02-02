@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 // import data
 import { interviewData } from '../data';
-// import modal video
-import '../modalVideo.scss';
 // import motion
 import { motion } from 'framer-motion';
 // import variants
