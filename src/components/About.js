@@ -14,7 +14,7 @@ const About = () => {
       <div className='container mx-aut' id='About'>
         <div className='flex flex-col lg:flex-row gap-x-[70px] items-center'> 
           {/* numbers */}
-            <div className='flex lg:flex-row flex-1 bg-about bg-no-repeat h-96'>
+            <div className='ml-28 flex lg:flex-row flex-1 bg-about bg-no-repeat h-96'>
 
             </div>
 
