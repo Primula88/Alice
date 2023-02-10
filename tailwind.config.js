@@ -25,6 +25,9 @@ module.exports = {
         grey: {
           DEFAULT: '#555555',
         },
+        height: {
+          '128': '32rem',
+        },
       },
       backgroundImage: {
         hero: "url('/src/img/hero/bg.jpg')",
@@ -38,3 +41,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+

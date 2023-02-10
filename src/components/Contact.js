@@ -5,6 +5,7 @@ import { contactData } from '../data';
 import { motion } from 'framer-motion';
 // import variants
 import { fadeIn } from '../variants';
+import ContactImage from '../img/about/image.png'
 
 const Contact = () => {
   // destructure contact data
@@ -19,10 +20,10 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
-            className='flex-1'
+            className='flex-1 m-auto'
           >
             {/* title */}
-            <h2 className='h2 max-w-[490px]'>{title}</h2>
+            <h2 className='h2 max-w-[490px] m-auto'>{title}</h2>
             {/* info items */}
             <div className='flex flex-col xl:flex-row gap-x-5 gap-y-16 xl:gap-y-0'>
               {info.map((item, index) => {
@@ -60,6 +61,9 @@ const Contact = () => {
                   </div>
                 );
               })}
+              <div className='flex flex-col xl:flex-row items-end'>
+              <img src={ContactImage} /> 
+              </div> 
             </div>
           </motion.div>
         </div>

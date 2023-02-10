@@ -1,14 +1,23 @@
 // import images
 import Logo from '../src/img/header/logo.png';
-import GalleryImg1 from '../src/img/gallery/1.png';
-import GalleryImg2 from '../src/img/gallery/2.png';
-import GalleryImg3 from '../src/img/gallery/3.png';
-import GalleryImg4 from '../src/img/gallery/4.png';
-import GalleryImg5 from '../src/img/gallery/5.png';
+import GalleryImg1 from '../src/img/gallery/1.jpg';
+import GalleryImg2 from '../src/img/gallery/2.jpg';
+import GalleryImg3 from '../src/img/gallery/3.jpg';
+import GalleryImg4 from '../src/img/gallery/4.jpg';
+import GalleryImg5 from '../src/img/gallery/5.jpg';
 import GalleryImg6 from '../src/img/gallery/6.png';
 import GalleryImg7 from '../src/img/gallery/7.png';
 import GalleryImg8 from '../src/img/gallery/8.png';
-import QuoteImg from '../src/img/testimonial/quote.svg';
+import FullGalleryImg1 from '../src/img/fullgallery/1.jpeg';
+import FullGalleryImg2 from '../src/img/fullgallery/2.jpeg';
+import FullGalleryImg3 from '../src/img/fullgallery/3.jpeg';
+import FullGalleryImg4 from '../src/img/fullgallery/4.jpeg';
+import FullGalleryImg5 from '../src/img/fullgallery/5.jpeg';
+import FullGalleryImg6 from '../src/img/fullgallery/6.jpeg';
+import FullGalleryImg7 from '../src/img/fullgallery/7.jpeg';
+import FullGalleryImg8 from '../src/img/fullgallery/8.jpeg';
+import FullGalleryImg9 from '../src/img/fullgallery/9.jpeg';
+import FullGalleryImg10 from '../src/img/fullgallery/10.jpeg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
@@ -30,6 +39,7 @@ export const navData = {
     { href: '/#About', name: 'About' },
     { href: '/#Gallery', name: 'Gallery' },
     { href: '/#Contact', name: 'Contact' },
+    { href: '/Nazorg.pdf', name: 'Nazorg' },
   ],
 };
 
@@ -71,19 +81,19 @@ export const galleryData = {
     {
       src: GalleryImg2,
       original: GalleryImg2,
-      width: 465,
-      height: 540,
+      width: 445,
+      height: 580,
     },
     {
       src: GalleryImg3,
       original: GalleryImg3,
-      width: 465,
-      height: 412,
+      width: 485,
+      height: 580,
     },
     {
       src: GalleryImg4,
       original: GalleryImg4,
-      width: 465,
+      width: 445,
       height: 540,
     },
     {
@@ -113,6 +123,72 @@ export const galleryData = {
   ],
 };
 
+export const FullgalleryData = {
+  title: 'Check my gallery:',
+  images: [
+    {
+      src: FullGalleryImg1,
+      original: FullGalleryImg1,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg2,
+      original: FullGalleryImg2,
+      width: 445,
+      height: 580,
+    },
+    {
+      src: FullGalleryImg3,
+      original: FullGalleryImg3,
+      width: 485,
+      height: 580,
+    },
+    {
+      src: FullGalleryImg4,
+      original: FullGalleryImg4,
+      width: 445,
+      height: 540,
+    },
+    {
+      src: FullGalleryImg5,
+      original: FullGalleryImg5,
+      width: 465,
+      height: 540,
+    },
+    {
+      src: FullGalleryImg6,
+      original: FullGalleryImg6,
+      width: 464,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg7,
+      original: FullGalleryImg7,
+      width: 465,
+      height: 540,
+    },
+    {
+      src: FullGalleryImg8,
+      original: FullGalleryImg8,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg9,
+      original: FullGalleryImg9,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg10,
+      original: FullGalleryImg10,
+      width: 465,
+      height: 412,
+    },
+  ],
+};
+
 export const interviewData = {
   title:
     '“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”',
@@ -120,22 +196,6 @@ export const interviewData = {
   btnIcon: <FaPlay />,
 };
 
-export const testimonialData = [
-  {
-    quoteImg: QuoteImg,
-    message:
-      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
-    name: 'Jack Geoffrey',
-    occupation: 'Tattoo Artist',
-  },
-  {
-    quoteImg: QuoteImg,
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?',
-    name: 'Douglas Hane',
-    occupation: 'Tattoo Artist',
-  },
-];
 
 export const contactData = {
   title: 'Get in touch with me:',

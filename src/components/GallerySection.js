@@ -9,6 +9,8 @@ import 'yet-another-react-lightbox/styles.css';
 import { motion } from 'framer-motion';
 // import variants
 import { fadeIn } from '../variants';
+import ToggleVisibility from './GalleryButton';
+import FullGallerySection from './FullGallery';
 
 const slides = galleryData.images.map(({ original, width, height }) => ({
   src: original,
@@ -28,7 +30,7 @@ const GallerySection = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.6 }}
-          className='h2 max-w-[370px] lg:mb-20'
+          className='h2 max-w-[370px] lg:mb-20 m-auto'
         >
           {title}
         </motion.h2>
@@ -39,7 +41,7 @@ const GallerySection = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.2 }}
-        className='mb-8 lg:mb-20'
+        className='mb-2 lg:mb-20'
       >
         <PhotoAlbum
           layout='rows'
@@ -54,6 +56,9 @@ const GallerySection = () => {
           close={() => setIndex(-1)}
         />
       </motion.div>
+      <ToggleVisibility>
+        <FullGallerySection /> 
+      </ToggleVisibility>
     </section>
   );
 };
