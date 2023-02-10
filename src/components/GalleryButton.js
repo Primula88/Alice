@@ -8,8 +8,16 @@ export default function ToggleVisibility({ children }) {
   // function to toggle the boolean value
   function toggleShow() {
     setShow(!show);
+
+    if(!show) {
+    document.getElementById("Gall").style.display = 'none';
+    } else {
+      document.getElementById("Gall").style.display = 'block';
+    }
   }
   var buttonText = show ? "Hide More" : "Show More";
+
+
 
   return (
     <div className='items-center mx-auto flex'>

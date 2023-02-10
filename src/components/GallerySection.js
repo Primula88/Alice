@@ -42,6 +42,7 @@ const GallerySection = () => {
         whileInView={'show'}
         viewport={{ once: false, amount: 0.2 }}
         className='mb-2 lg:mb-20'
+        id='Gall'
       >
         <PhotoAlbum
           layout='rows'
