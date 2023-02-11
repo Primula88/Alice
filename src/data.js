@@ -18,6 +18,16 @@ import FullGalleryImg7 from '../src/img/fullgallery/7.jpeg';
 import FullGalleryImg8 from '../src/img/fullgallery/8.jpeg';
 import FullGalleryImg9 from '../src/img/fullgallery/9.jpeg';
 import FullGalleryImg10 from '../src/img/fullgallery/10.jpeg';
+import FullGalleryImg11 from '../src/img/fullgallery/11.jpeg';
+import FullGalleryImg12 from '../src/img/fullgallery/12.jpeg';
+import FullGalleryImg13 from '../src/img/fullgallery/13.jpeg';
+import FullGalleryImg14 from '../src/img/fullgallery/14.jpeg';
+import FullGalleryImg15 from '../src/img/fullgallery/15.jpeg';
+import FullGalleryImg16 from '../src/img/fullgallery/16.jpeg';
+import FullGalleryImg17 from '../src/img/fullgallery/17.jpeg';
+import FullGalleryImg18 from '../src/img/fullgallery/18.jpeg';
+import FullGalleryImg19 from '../src/img/fullgallery/19.jpeg';
+import FullGalleryImg20 from '../src/img/fullgallery/20.jpeg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
@@ -148,7 +158,7 @@ export const FullgalleryData = {
       src: FullGalleryImg4,
       original: FullGalleryImg4,
       width: 445,
-      height: 540,
+      height: 450,
     },
     {
       src: FullGalleryImg5,
@@ -183,6 +193,66 @@ export const FullgalleryData = {
     {
       src: FullGalleryImg10,
       original: FullGalleryImg10,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg11,
+      original: FullGalleryImg11,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg12,
+      original: FullGalleryImg12,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg13,
+      original: FullGalleryImg13,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg14,
+      original: FullGalleryImg14,
+      width: 465,
+      height: 600,
+    },
+    {
+      src: FullGalleryImg15,
+      original: FullGalleryImg15,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg16,
+      original: FullGalleryImg16,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg17,
+      original: FullGalleryImg17,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg18,
+      original: FullGalleryImg18,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg19,
+      original: FullGalleryImg19,
+      width: 465,
+      height: 412,
+    },
+    {
+      src: FullGalleryImg20,
+      original: FullGalleryImg20,
       width: 465,
       height: 412,
     },

@@ -5,7 +5,7 @@ import { contactData } from '../data';
 import { motion } from 'framer-motion';
 // import variants
 import { fadeIn } from '../variants';
-import ContactImage from '../img/about/image.png'
+import ContactImage from '../img/footer/shop.jpg'
 
 const Contact = () => {
   // destructure contact data

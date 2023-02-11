@@ -21,8 +21,8 @@ export default function ToggleVisibility({ children }) {
 
   return (
     <div className='items-center mx-auto flex'>
-      {show && children}
       <button className='bg-pink-400 rounded mx-auto h-20 shadow-md text-white w-48 mt-0' onClick={toggleShow}>{buttonText}</button>
+      {show && children}
     </div>
   );
 }

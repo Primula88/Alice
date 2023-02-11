@@ -33,6 +33,7 @@ module.exports = {
         hero: "url('/src/img/hero/bg.jpg')",
         about: "url('/src/img/about/image.png')",
         interview: "url('/src/img/interview/bg.png')",
+        footer: "url('/src/img/footer/shop.jpg')",
       },
       content: {
         outlineText: 'url("/src/img/hero/outline-text.svg")',
