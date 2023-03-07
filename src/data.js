@@ -1,12 +1,12 @@
 // import images
 import Logo from '../src/img/header/logo.png';
 import GalleryImg1 from '../src/img/gallery/1.jpeg';
-import GalleryImg2 from '../src/img/gallery/2.png';
-import GalleryImg3 from '../src/img/gallery/3.png';
-import GalleryImg4 from '../src/img/gallery/4.png';
-import GalleryImg5 from '../src/img/gallery/5.jpeg';
-import GalleryImg6 from '../src/img/gallery/6.jpeg';
-import GalleryImg7 from '../src/img/gallery/7.png';
+import GalleryImg2 from '../src/img/gallery/2.jpg';
+import GalleryImg3 from '../src/img/gallery/3.jpeg';
+import GalleryImg4 from '../src/img/gallery/4.jpeg';
+import GalleryImg5 from '../src/img/gallery/5.jpg';
+import GalleryImg6 from '../src/img/gallery/6.jpg';
+import GalleryImg7 from '../src/img/gallery/7.jpg';
 import GalleryImg8 from '../src/img/gallery/8.JPG';
 import FullGalleryImg1 from '../src/img/fullgallery/1.jpeg';
 import FullGalleryImg2 from '../src/img/fullgallery/2.png';
@@ -79,12 +79,12 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title: 'My Story:',
+  title: 'Welkom:',
   subtitle1:
-    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
+    'Hoi! Mijn naam is Alicia (Alice) en ik werk in mijn eigen privé studio in Vlissingen. De stijlen die ik doe zijn vooral gebaseerd op fine line, floral/fauna, ornamental en neo traditional (kleur), maar darktrash/blackwork doe ik ook graag! ',
   subtitle2:
-    'Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed. Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.',
-  btnText: 'Know more',
+    'Samen kunnen we je wensen bespreken voor een design dat bij jou past. Afspraken kunnen gemaakt worden via Whatsapp +3162743006' ,
+  btnText: 'Neem gerust een kijkje op mijn Instagram',
   btnIcon: <IoMdArrowForward />,
 };
 
@@ -97,7 +97,7 @@ export const galleryData = {
       src: GalleryImg1,
       original: GalleryImg1,
       width: 465,
-      height: 412,
+      height: 500,
     },
     {
       src: GalleryImg2,
@@ -115,7 +115,7 @@ export const galleryData = {
       src: GalleryImg4,
       original: GalleryImg4,
       width: 445,
-      height: 540,
+      height: 450,
     },
     {
       src: GalleryImg5,
@@ -127,7 +127,7 @@ export const galleryData = {
       src: GalleryImg6,
       original: GalleryImg6,
       width: 464,
-      height: 412,
+      height: 500,
     },
     {
       src: GalleryImg7,
@@ -139,7 +139,7 @@ export const galleryData = {
       src: GalleryImg8,
       original: GalleryImg8,
       width: 465,
-      height: 412,
+      height: 350,
     },
   ],
 };

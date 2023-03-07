@@ -8,7 +8,7 @@ import { fadeIn } from '../variants';
 
 const About = () => {
   // destructure about data
-  const { title, subtitle1, subtitle2 } = aboutData;
+  const { title, subtitle1, subtitle2,btnText, btnIcon } = aboutData;
   return (
     <section className='lg:py-16 xl:pb-[160px] bg-pink-300'>
       <div className='container mx-aut' id='About'>
@@ -31,6 +31,12 @@ const About = () => {
               <div className='max-w-[530px] text-grey'>
                 <p className='mb-6'>{subtitle1}</p>
                 <p className='mb-9'>{subtitle2}</p>
+                <a href="https://www.instagram.com/tattoo_alice/" target="_blank" rel="noopener noreferrer">
+                <button className='btn btn-lg btn-link'>
+                  {btnText}
+                  <div className='text-xl'>{btnIcon}</div>
+                </button>
+                </a>
               </div>                                        
             </div>
           </motion.div>
