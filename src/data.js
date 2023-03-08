@@ -9,35 +9,34 @@ import GalleryImg6 from '../src/img/gallery/6.jpg';
 import GalleryImg7 from '../src/img/gallery/7.jpg';
 import GalleryImg8 from '../src/img/gallery/8.JPG';
 import FullGalleryImg1 from '../src/img/fullgallery/1.jpeg';
-import FullGalleryImg2 from '../src/img/fullgallery/2.png';
-import FullGalleryImg3 from '../src/img/fullgallery/3.png';
-import FullGalleryImg4 from '../src/img/fullgallery/4.png';
-import FullGalleryImg5 from '../src/img/fullgallery/5.jpeg';
-import FullGalleryImg6 from '../src/img/fullgallery/6.jpeg';
-import FullGalleryImg7 from '../src/img/fullgallery/7.png';
+import FullGalleryImg2 from '../src/img/fullgallery/2.jpg';
+import FullGalleryImg3 from '../src/img/fullgallery/3.jpeg';
+import FullGalleryImg4 from '../src/img/fullgallery/4.jpeg';
+import FullGalleryImg5 from '../src/img/fullgallery/5.jpg';
+import FullGalleryImg6 from '../src/img/fullgallery/6.jpg';
+import FullGalleryImg7 from '../src/img/fullgallery/7.jpg';
 import FullGalleryImg8 from '../src/img/fullgallery/8.JPG';
-import FullGalleryImg9 from '../src/img/fullgallery/9.jpeg';
-import FullGalleryImg10 from '../src/img/fullgallery/10.jpeg';
-import FullGalleryImg11 from '../src/img/fullgallery/11.jpeg';
-import FullGalleryImg12 from '../src/img/fullgallery/12.jpeg';
-import FullGalleryImg13 from '../src/img/fullgallery/13.jpeg';
-import FullGalleryImg14 from '../src/img/fullgallery/14.jpeg';
-import FullGalleryImg15 from '../src/img/fullgallery/15.jpeg';
-import FullGalleryImg16 from '../src/img/fullgallery/16.jpeg';
-import FullGalleryImg17 from '../src/img/fullgallery/17.jpeg';
-import FullGalleryImg18 from '../src/img/fullgallery/18.jpeg';
-import FullGalleryImg19 from '../src/img/fullgallery/19.jpeg';
-import FullGalleryImg20 from '../src/img/fullgallery/20.jpeg';
+import FullGalleryImg9 from '../src/img/fullgallery/9.jpg';
+import FullGalleryImg10 from '../src/img/fullgallery/10.jpg';
+import FullGalleryImg11 from '../src/img/fullgallery/11.jpg';
+import FullGalleryImg12 from '../src/img/fullgallery/12.jpg';
+import FullGalleryImg13 from '../src/img/fullgallery/13.jpg';
+import FullGalleryImg14 from '../src/img/fullgallery/14.jpg';
+import FullGalleryImg15 from '../src/img/fullgallery/15.jpg';
+import FullGalleryImg16 from '../src/img/fullgallery/16.jpg';
+import FullGalleryImg17 from '../src/img/fullgallery/17.jpg';
+import FullGalleryImg18 from '../src/img/fullgallery/18.jpg';
+import FullGalleryImg19 from '../src/img/fullgallery/19.jpg';
+import FullGalleryImg20 from '../src/img/fullgallery/20.jpg';
 import FullGalleryImg21 from '../src/img/fullgallery/21.jpg';
-import FullGalleryImg22 from '../src/img/fullgallery/22.jpeg';
+import FullGalleryImg22 from '../src/img/fullgallery/22.jpg';
 import FullGalleryImg23 from '../src/img/fullgallery/23.jpg';
-import FullGalleryImg24 from '../src/img/fullgallery/24.png';
-import FullGalleryImg25 from '../src/img/fullgallery/25.png';
-import FullGalleryImg26 from '../src/img/fullgallery/26.png';
-import FullGalleryImg27 from '../src/img/fullgallery/27.png';
-import FullGalleryImg28 from '../src/img/fullgallery/28.png';
-import FullGalleryImg29 from '../src/img/fullgallery/29.png';
-import FullGalleryImg30 from '../src/img/fullgallery/30.jpeg';
+import FullGalleryImg24 from '../src/img/fullgallery/24.jpg';
+import FullGalleryImg25 from '../src/img/fullgallery/25.jpg';
+import FullGalleryImg26 from '../src/img/fullgallery/26.jpg';
+import FullGalleryImg27 from '../src/img/fullgallery/27.jpg';
+import FullGalleryImg28 from '../src/img/fullgallery/28.jpg';
+import FullGalleryImg29 from '../src/img/fullgallery/29.jpg';
 
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
@@ -145,7 +144,7 @@ export const FullgalleryData = {
       src: FullGalleryImg1,
       original: FullGalleryImg1,
       width: 465,
-      height: 412,
+      height: 500,
     },
     {
       src: FullGalleryImg2,
@@ -175,7 +174,7 @@ export const FullgalleryData = {
       src: FullGalleryImg6,
       original: FullGalleryImg6,
       width: 464,
-      height: 412,
+      height: 500,
     },
     {
       src: FullGalleryImg7,
@@ -193,13 +192,13 @@ export const FullgalleryData = {
       src: FullGalleryImg9,
       original: FullGalleryImg9,
       width: 465,
-      height: 412,
+      height: 600,
     },
     {
       src: FullGalleryImg10,
       original: FullGalleryImg10,
       width: 465,
-      height: 412,
+      height: 700,
     },
     {
       src: FullGalleryImg11,
@@ -217,7 +216,7 @@ export const FullgalleryData = {
       src: FullGalleryImg13,
       original: FullGalleryImg13,
       width: 465,
-      height: 412,
+      height: 600,
     },
     {
       src: FullGalleryImg14,
@@ -229,7 +228,7 @@ export const FullgalleryData = {
       src: FullGalleryImg15,
       original: FullGalleryImg15,
       width: 465,
-      height: 412,
+      height: 600,
     },
     {
       src: FullGalleryImg16,
@@ -241,7 +240,7 @@ export const FullgalleryData = {
       src: FullGalleryImg17,
       original: FullGalleryImg17,
       width: 465,
-      height: 412,
+      height: 600,
     },
     {
       src: FullGalleryImg18,
@@ -265,25 +264,25 @@ export const FullgalleryData = {
       src: FullGalleryImg21,
       original: FullGalleryImg21,
       width: 465,
-      height: 412,
+      height: 500,
     },
     {
       src: FullGalleryImg22,
       original: FullGalleryImg22,
       width: 465,
-      height: 412,
+      height: 650,
     },
     {
       src: FullGalleryImg23,
       original: FullGalleryImg23,
       width: 465,
-      height: 412,
+      height: 700,
     },
     {
       src: FullGalleryImg24,
       original: FullGalleryImg24,
       width: 465,
-      height: 412,
+      height: 600,
     },
     {
       src: FullGalleryImg25,
@@ -301,23 +300,17 @@ export const FullgalleryData = {
       src: FullGalleryImg27,
       original: FullGalleryImg27,
       width: 465,
-      height: 412,
+      height: 700,
     },
     {
       src: FullGalleryImg28,
       original: FullGalleryImg28,
       width: 465,
-      height: 412,
+      height: 700,
     },
     {
       src: FullGalleryImg29,
       original: FullGalleryImg29,
-      width: 465,
-      height: 412,
-    },
-    {
-      src: FullGalleryImg30,
-      original: FullGalleryImg30,
       width: 465,
       height: 412,
     },
