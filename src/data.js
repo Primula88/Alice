@@ -61,8 +61,8 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
+  { href: 'https://www.facebook.com/TattooAliceVlissingen/', icon: <GrFacebookOption /> },
+  { href: 'https://www.instagram.com/tattoo_alice/', icon: <IoLogoInstagram /> },
 ];
 
 export const heroData = {
