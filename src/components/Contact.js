@@ -24,21 +24,18 @@ const Contact = () => {
           >
             {/* title */}
             <h2 className='h2 max-w-[490px] m-auto'>{title}</h2>
+            <br></br>
             {/* info items */}
             <div className='flex flex-col xl:flex-row gap-x-5 gap-y-16 xl:gap-y-0'>
               {info.map((item, index) => {
                 // destructure item
-                const { title, subtitle, address, phone, email, link } = item;
+                const { title, address, phone } = item;
                 return (
                   // item
                   <div key={index}>
                     {/* title */}
                     <div className='font-primary uppercase font-medium text-xl mb-3'>
                       {title}
-                    </div>
-                    {/* subtitle */}
-                    <div className='mb-6 text-[#333] leading-[187%] tracking-[0.02em]'>
-                      {subtitle}
                     </div>
                     {/* address, phone & email */}
                     <div className='flex flex-col gap-y-3 mb-8'>
@@ -52,17 +49,12 @@ const Contact = () => {
                         <div>{phone.icon}</div>
                         <div className='font-medium'>{phone.number}</div>
                       </div>
-                      {/* email */}
-                      <div className='flex items-center gap-[10px]'>
-                        <div>{email.icon}</div>
-                        <div className='font-medium'>{email.address}</div>
-                      </div>
                     </div>
                   </div>
                 );
               })}
-              <div className='flex flex-col xl:flex-row items-end'>
-              <img src={ContactImage} /> 
+              <div className='flex flex-col xl:flex-row items-end m-auto'>
+              <img src={ContactImage} className='flex h-56' alt="Contact" /> 
               </div> 
             </div>
           </motion.div>

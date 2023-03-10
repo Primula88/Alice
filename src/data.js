@@ -76,7 +76,7 @@ export const aboutData = {
   subtitle1:
     'Hoi! Mijn naam is Alicia (Alice) en ik werk in mijn eigen privé studio in Vlissingen. De stijlen die ik doe zijn vooral gebaseerd op fine line, floral/fauna, ornamental en neo traditional (kleur), maar darktrash/blackwork doe ik ook graag! ',
   subtitle2:
-    'Samen kunnen we je wensen bespreken voor een design dat bij jou past. Afspraken kunnen gemaakt worden via Whatsapp +3162743006' ,
+    'Samen kunnen we je wensen bespreken voor een design dat bij jou past. Afspraken kunnen gemaakt worden via Whatsapp' ,
   btnText: 'Neem gerust een kijkje op mijn Instagram',
   btnIcon: <IoMdArrowForward />,
 };
@@ -326,19 +326,17 @@ export const interviewData = {
 
 
 export const contactData = {
-  title: 'Get in touch with me:',
+  title: 'Contact:',
   info: [
     {
       title: 'Tattoo Alice',
-      subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
       address: {
         icon: <FaMapMarkerAlt />,
         name: 'Blikkenburg 93 Vlissingen',
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: '+31 06 273430063',
+        number: <a href="tel:+3106273430063">+3106273430063</a>,
       },
       email: {
         icon: <FaEnvelope />,
