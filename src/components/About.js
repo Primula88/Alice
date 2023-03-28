@@ -29,7 +29,7 @@ const About = () => {
             <div className='flex flex-col items-center'>
               <div className='max-w-[530px] text-grey'>
                 <p className='mb-6'>{subtitle1}</p>
-                <p className='mb-9'>{subtitle2}<a href="tel:+3162743006">+3162743006</a></p>
+                <p className='mb-9'>{subtitle2}<a href="tel:+31627343006">+3162743006</a></p>
                 <a href="https://www.instagram.com/tattoo_alice/" target="_blank" rel="noopener noreferrer">
                 <button className='btn btn-lg btn-link'>
                   {btnText}

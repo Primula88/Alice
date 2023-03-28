@@ -336,7 +336,7 @@ export const contactData = {
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: <a href="tel:+3106273430063">+3106273430063</a>,
+        number: <a href="tel:+310627343006">+310627343006</a>,
       },
       email: {
         icon: <FaEnvelope />,
