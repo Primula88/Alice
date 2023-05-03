@@ -336,7 +336,7 @@ export const contactData = {
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: <a href="tel:+310627343006">+310627343006</a>,
+        number: <a href="tel:+31627343006">+31627343006</a>,
       },
       email: {
         icon: <FaEnvelope />,
@@ -363,7 +363,7 @@ export const footerData = {
     },
     phone: {
       icon: <FaPhoneAlt />,
-      number: '+31 06 27343006',
+      number: '+31627343006',
     },
     email: {
       icon: <FaEnvelope />,
